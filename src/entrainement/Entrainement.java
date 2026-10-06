@@ -35,7 +35,7 @@ public class Entrainement {
         int b = wp.nextInt() ;
         int temp = (a*b)*2 ; 
         System.out.println(temp); */
-        Scanner sc = new Scanner(System.in);
+        /*Scanner sc = new Scanner(System.in);
         System.out.println("Saisir le mot de passe : ");
         String texte = sc.nextLine();
         String mdp = "admin123" ;
@@ -44,7 +44,20 @@ public class Entrainement {
             System.out.print("Mot de passe incorrect "); 
             System.out.print("Mot de passe : ");
             texte = sc.nextLine();
-        }
+        } */
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Quel est ton nom ?");
+        String nom = sc.nextLine();
+        System.out.println("Salut " + nom + ", quel pizza veux tu ?");
+        String margarita  = "margarita = 10euro";
+        String chevre_miel  = "chevre miel = 10euro";
+        String quatre_fromages = "4 fromages = 10euro";
+        System.out.println(margarita);
+        System.out.println(chevre_miel);
+        System.out.println(quatre_fromages);
+        
+        
+        
 
         
         
