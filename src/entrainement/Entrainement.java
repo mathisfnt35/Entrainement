@@ -46,15 +46,21 @@ public class Entrainement {
             texte = sc.nextLine();
         } */
         Scanner sc = new Scanner(System.in);
-        System.out.println("Quel est ton nom ?");
-        String nom = sc.nextLine();
-        System.out.println("Salut " + nom + ", quel pizza veux tu ?");
-        String margarita  = "margarita = 10euro";
-        String chevre_miel  = "chevre miel = 10euro";
-        String quatre_fromages = "4 fromages = 10euro";
-        System.out.println(margarita);
-        System.out.println(chevre_miel);
-        System.out.println(quatre_fromages);
+        System.out.println("Quel ta premiere note ?");
+        double note1 = sc.nextDouble();
+        System.out.println("Quel ta deuxieme note ?");
+        double note2 = sc.nextDouble();
+        System.out.println("Quel ta troisieme note ?");
+        double note3 = sc.nextDouble();
+        System.out.println("Quel ta quatrieme note ?");
+        double note4 = sc.nextDouble();
+        System.out.println("Quel ta cinquième note ?");
+        double note5 = sc.nextDouble();
+        double somme = note1 + note2 + note3 + note4 + note5;
+        double moyenne = somme / 5;
+        System.out.println("La somme des notes est de : " + somme);
+        System.out.println("La moyenne des notes est de : " + moyenne);
+        
         
         
         
